@@ -45,20 +45,21 @@
 
 //test 5: add a function that takes two numbers as parameters and return the larger one
 
-console.log(`Return largest number.`);
+// console.log(`Return largest number.`);
 
-function returnsLargestNumber ()
-{
-    let number1 = Number( prompt( `Enter a  number.` ) );
-    let number2 = Number( prompt( `Enter another number.` ) );
+// function returnsLargestNumber ()
+// {
+//     let number1 = Number( prompt( `Enter a  number.` ) );
+//     let number2 = Number( prompt( `Enter another number.` ) );
 
-    if ( number1 > number2 )
-    {
-        console.log( `Between ${number1} and ${number2}, the larger number is ${number1}.` );
-    }
-    if (number1 < number2) {
-        console.log( `Between ${number2} and ${number1}, the larger number is ${number2}.` );
-    }
-}
+//     if ( number1 > number2 )
+//     {
+//         console.log( `Between ${number1} and ${number2}, the larger number is ${number1}.` );
+//     }
+//     if (number1 < number2) {
+//         console.log( `Between ${number2} and ${number1}, the larger number is ${number2}.` );
+//     }
+// }
 
-returnsLargestNumber();
+// returnsLargestNumber();
+
