@@ -43,7 +43,7 @@
 
 // averageOfTheNumbers();
 
-// test 5  Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+//test 5: add a function that takes two numbers as parameters and return the larger one
 
 console.log(`Return largest number.`);
 
@@ -62,4 +62,3 @@ function returnsLargestNumber ()
 }
 
 returnsLargestNumber();
-
