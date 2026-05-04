@@ -78,10 +78,10 @@
 
 //Number( test 6 | Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
 
-function multiplicationOfNumbers() {
-    let number = Number(prompt( `Enter a number.` ));
-    let result = number * number;
-    console.log(`The multiplication of the number ${number} by itself is: ${result}`);
-}
+// function multiplicationOfNumbers() {
+//     let number = Number(prompt( `Enter a number.` ));
+//     let result = number * number;
+//     console.log(`The multiplication of the number ${number} by itself is: ${result}`);
+// }
 
-multiplicationOfNumbers();
+// multiplicationOfNumbers();
