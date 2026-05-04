@@ -1,7 +1,8 @@
 
 function lookYouConsole (  )
 {
-    console.log('Hello world!')
+    let name = prompt(`What your name?`)
+    console.log(`Hello ${name}!`)
 }
 
 lookYouConsole();
