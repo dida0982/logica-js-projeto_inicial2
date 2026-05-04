@@ -21,11 +21,24 @@
 // lookYouConsole();
 
 // test 3
-function theDoubleOfNumber() {
-    let number1 = Number( prompt( `Enter a number:` ));
-    let number2 =  number1 * 2;
+// function theDoubleOfNumber() {
+//     let number1 = Number( prompt( `Enter a number:` ));
+//     let number2 =  number1 * 2;
 
-    console.log(`The double of ${number1} is ${number2}`);
+//     console.log(`The double of ${number1} is ${number2}`);
+// }
+
+// theDoubleOfNumber()
+
+// test 4
+
+function averageOfTheNumbers() {
+    let number1 = Number(prompt( `Enter a number.` ));
+    let number2 = Number(prompt( `Enter another number.` ));
+    let number3 = Number( prompt( `Enter another number.` ) );
+    let average = (number1 + number2 + number3) / 3;
+    console.log(`The average of '${number1}', '${number2}', '${number3}' is ${ parseInt(average)} `);
+
 }
 
-theDoubleOfNumber()
+averageOfTheNumbers();
