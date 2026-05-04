@@ -32,13 +32,13 @@
 
 // test 4
 
-function averageOfTheNumbers() {
-    let number1 = Number(prompt( `Enter a number.` ));
-    let number2 = Number(prompt( `Enter another number.` ));
-    let number3 = Number( prompt( `Enter another number.` ) );
-    let average = (number1 + number2 + number3) / 3;
-    console.log(`The average of '${number1}', '${number2}', '${number3}' is ${ parseInt(average)} `);
+// function averageOfTheNumbers() {
+//     let number1 = Number(prompt( `Enter a number.` ));
+//     let number2 = Number(prompt( `Enter another number.` ));
+//     let number3 = Number( prompt( `Enter another number.` ) );
+//     let average = (number1 + number2 + number3) / 3;
+//     console.log(`The average of '${number1}', '${number2}', '${number3}' is ${ parseInt(average)} `);
 
-}
+// }
 
-averageOfTheNumbers();
+// averageOfTheNumbers();
