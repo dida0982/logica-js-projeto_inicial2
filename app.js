@@ -63,3 +63,17 @@
 
 // returnsLargestNumber();
 
+// function returnsLargestNumber(number1, number2) {
+//     if (number1 > number2) {
+//         return number1;
+//     } else {
+//         return number2;
+//     }
+// }
+
+// // exemplo de uso
+// let result = returnsLargestNumber(10, 20);
+// console.log(result);
+
+
+// test 6 | Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
