@@ -11,12 +11,21 @@
 //6 Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
 
 
-function sumOfNumbers() {
-    let number1 = Number( prompt( `Enter a number:` ));
-    let number2 = Number( prompt( `Enter another number:` ));
-    let number3 =  number1 + number2;
+// test 1 e 2
+// function lookYouConsole (  )
+// {
+//     let name = prompt(`What your name?`)
+//     console.log(`Hello ${name}!`)
+// }
 
-    console.log(`${number1} + ${number2} = ${number3}`);
+// lookYouConsole();
+
+// test 3
+function theDoubleOfNumber() {
+    let number1 = Number( prompt( `Enter a number:` ));
+    let number2 =  number1 * 2;
+
+    console.log(`The double of ${number1} is ${number2}`);
 }
 
-sumOfNumbers()
+theDoubleOfNumber()
