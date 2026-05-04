@@ -42,3 +42,24 @@
 // }
 
 // averageOfTheNumbers();
+
+// test 5  Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+console.log(`Return largest number.`);
+
+function returnsLargestNumber ()
+{
+    let number1 = Number( prompt( `Enter a  number.` ) );
+    let number2 = Number( prompt( `Enter another number.` ) );
+
+    if ( number1 > number2 )
+    {
+        console.log( `Between ${number1} and ${number2}, the larger number is ${number1}.` );
+    }
+    if (number1 < number2) {
+        console.log( `Between ${number2} and ${number1}, the larger number is ${number2}.` );
+    }
+}
+
+returnsLargestNumber();
+
